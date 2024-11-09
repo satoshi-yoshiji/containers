@@ -1,5 +1,5 @@
 # tools
-This Dockerfile creates a container with the following tools: 
+This Dockerfile creates a container with the following tools:  
 •PRSCS (v1.1.0. downloaded on Nov 9, 2024) 
 Note that scipy h5py (scipy and h5py are needed for PRSCS) 
 •plink1.9 (plink_linux_x86_64_20241022)  
