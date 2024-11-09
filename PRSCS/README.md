@@ -17,5 +17,5 @@ Note that the image is for amd64/linux_x86_64 and not for amd64 (Mac etc).
 # Usage  
 `apptainer exec --bind=$HOME/scratch prscs_latest.sif /root/miniforge3/envs/test/bin/python /PRScs/PRScs.py`  
 Alternatively, you can go inside the container and run it:  
-`apptainer run --bind=$HOME/scratch prscs_latest.sif  
-/root/miniforge3/envs/test/bin/python /PRScs/PRScs.py`
+`apptainer run --bind=$HOME/scratch prscs_latest.sif`  
+`/root/miniforge3/envs/test/bin/python /PRScs/PRScs.py`
