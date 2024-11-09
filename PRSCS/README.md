@@ -5,6 +5,7 @@ Note that scipy h5py (scipy and h5py are needed for PRSCS)
 •plink1.9 (plink_linux_x86_64_20241022)  
 •plink2 (plink2_linux_x86_64_20241020)  
 •bgenix  
+  
 Note that the image is for amd64/linux_x86_64 and not for amd64 (Mac etc).  
 
 # build and push  
