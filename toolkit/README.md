@@ -11,4 +11,4 @@ Note that the image is for amd64/linux_x86_64 and not for amd64 (Mac etc).
 
 # pull the image from HPCs/VMs
 module load apptainer/1.2
-apptainer pull docker://sysgits/toolkit:latest
+`apptainer pull docker://sysgits/toolkit:latest`
