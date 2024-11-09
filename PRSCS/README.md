@@ -13,6 +13,4 @@ Note that the image is for amd64/linux_x86_64 and not for amd64 (Mac etc).
   
 # pull the image from HPC/VM  
 `module load apptainer/1.2 && apptainer pull docker://sysgits/prscs:latest`  
-
-# if python inside the container cannot be called with `python`  
-Use `/root/miniforge3/envs/test/bin/python PRScs.py`
+`/root/miniforge3/envs/test/bin/python PRScs.py`
