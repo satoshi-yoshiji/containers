@@ -11,5 +11,5 @@ Note that the image is for amd64/linux_x86_64 and not for amd64 (Mac etc).
 # build and push  
 `docker buildx build --platform linux/amd64 -t sysgits/prscs:latest --push .  `
   
-# pull the image from HPCs/VMs  
+# pull the image from HPC/VM  
 `module load apptainer/1.2 && apptainer pull docker://sysgits/prscs:latest`  
