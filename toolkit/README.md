@@ -10,5 +10,4 @@ Note that the image is for amd64/linux_x86_64 and not for amd64 (Mac etc).
 `docker buildx build --platform linux/amd64 -t sysgits/toolkit:latest --push .`
 
 # pull the image from HPCs/VMs
-module load apptainer/1.2
-`apptainer pull docker://sysgits/toolkit:latest`
+`module load apptainer/1.2 && apptainer pull docker://sysgits/toolkit:latest`
