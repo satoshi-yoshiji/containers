@@ -1,1 +1,2 @@
-apptainer exec ldsc_latest.sif ldsc.py
+
+##### apptainer exec ldsc_latest.sif ldsc.py
