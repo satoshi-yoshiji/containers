@@ -1,2 +1,2 @@
-
-apptainer exec ldsc_latest.sif ldsc.py
+# Usage  
+`apptainer exec ldsc_latest.sif ldsc.py`
